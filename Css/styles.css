@@ -126,12 +126,8 @@ img{
   background-color: #fafafa;
   background-image:  url(../img/linear\ gradient\ bg.svg) , url(../img/hero-bg-desktop\ \(1\).svg) ;
   background-repeat: no-repeat;
-  background-position:790px -309px , 643px -40px;
+  background-position: calc( 50% + 574px) -303px , calc( 50% + 499px) -33px;
   overflow: hidden;
-}
-.hero__container {
-  display: flex;
-  align-items: center;
 }
 .hero__info {
   width: 447px;
@@ -157,8 +153,8 @@ img{
 }
 .hero__img{
   position: absolute;
-  right: 0;
-  top: -15px;
+  left: calc( 50% - 55px);
+  top: 0;
 }
 /* Choice section */
 .choice {
