@@ -250,15 +250,18 @@ img{
   margin-right: 30px;
 }
 .articles__items--img {
+  width: 255px;
+  height: 200px;
   border-radius: 5px 5px 0px 0px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .articles__item--info{
   margin: 0;
-  padding: 24px;
   background-color: var(--bg-color);
 }
 .subtitle {
+  padding-right: 24px;
+  padding-left: 24px;
   display: block;
   margin-bottom: 8px;
   font-size: 10px;
@@ -267,6 +270,8 @@ img{
   color: var(--text-color);
 }
 .articles__heading{
+  padding-right: 24px;
+  padding-left: 24px;
   margin-top: 0px;
   margin-bottom: 8px;
   font-weight: 100;
@@ -276,6 +281,9 @@ img{
   color: var(--header-color);
 }
 .articles__text {
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 24px;
   margin: 0px;
   font-size: 13px;
   line-height: 18px;
